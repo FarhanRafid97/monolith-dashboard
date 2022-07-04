@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('../partials/head.ejs') %>
+    <link rel="stylesheet" href="/css/dashboard.css" type="text/css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <%- include('../partials/navbar.ejs') %>
+    <!-- End of Navbar -->
+
+    <div class="container-fluid">
+
+      <!-- Card Container -->
+      <div class="container d-flex p-4 flex-column">
+        <h4><%= contentName %><h4> 
+
+        <div class="container-fluid p-4 bg-white">
+          <%- body %>
+        </div>
+      </div>
+      <!-- End of Card Container -->
+
+    </div>
+
+  </body>
+</html>

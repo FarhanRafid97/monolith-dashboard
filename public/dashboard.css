@@ -1,0 +1,14 @@
+body {
+  background: #f8f9fa !important;
+}
+
+.list-group a {
+  color: black !important;
+  font-size: 0.8em;
+  transition: all 0.3s;
+}
+
+.list-group a:hover {
+  font-size: 1em;
+  text-decoration: none;
+}

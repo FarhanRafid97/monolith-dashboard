@@ -1,0 +1,8 @@
+<div class="container-fluid p-2">
+  <% data.forEach((i, index) => { %>
+  <div class="row">
+    <% Object.keys(i).forEach(item => { %> <%- include('../../partials/card', {
+    key: item, value: i[item] }) %> <% }) %>
+  </div>
+  <% }) %>
+</div>
